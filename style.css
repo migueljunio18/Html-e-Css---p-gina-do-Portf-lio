@@ -9,7 +9,7 @@
 
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: black;
     color: #22D4FD;
@@ -21,7 +21,7 @@ body {
 }
 
 .apresentacao {
-    margin: 10% 15%;
+    padding: 8%;
     display: flex;
     align-items: center;
     justify-content: space-evenly ;
@@ -42,7 +42,7 @@ body {
 
 .apresentacao__conteudo__texto {
     font-size: 24px;
-    font-family: "sans-serif' , 'Asimovian';
+    font-family: font-family: "Nunito", sans-serif;
 }
 
 .apresentacao__links {
@@ -55,7 +55,7 @@ body {
 
 
 .apresentacao__links__subtitulo{
-    font-family: 'Asimovian', 'sans-serif';
+    font-family: font-family: "Nunito", sans-serif;
     font-weight: 400px;
     font-size: 24px;
 }
@@ -67,7 +67,7 @@ body {
     gap: 16px;
     border: 2PX solid #22D4FD;
     color:#F6F6F6;
-    font-family: "Nunito", sans-serif;
+    font-family: font-family: "Nunito", sans-serif;
     font-weight: 600;
     width: 378px;
     text-align: center;
@@ -83,7 +83,15 @@ body {
     background-color: #272727;
 }
 
-
+.rodape {
+    padding: 24px;
+    color: #000000;
+    background-color: #22D4FD;
+    text-align: center;
+    font-family: font-family: "Nunito", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
 
 .apresentacao__conteudo__imagem {
     display: flex;
