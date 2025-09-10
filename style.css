@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap&Nunito:ital,wght@0,200..1000;1,200..1000&family=TASA+Explorer:wght@400..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: #00FFFF;
+
+}
+
+.destaque-do-titulo {
+    color: #3149FA
+}
+
+.apresentacao {
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+}
+
+.apresentacao__conteudo {
+    width: 715px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.apresentacao__conteudo__titulo {
+   font-size: 36px; 
+   font-family: "Asimovian", sans-serif;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: "Nunito", sans-serif;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.apresentacao__links__link {
+    background-color: blueviolet;
+    color:#000000;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+
+}
+
+.apresentacao__conteudo__imagem {
+    display: flex;
+    width: 488px;
+    height: 550px;
+    border-radius: 18px;
+        
+}
