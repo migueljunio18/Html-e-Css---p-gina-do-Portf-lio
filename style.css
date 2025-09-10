@@ -16,15 +16,28 @@ body {
 
 }
 
-.destaque-do-titulo {
-    color: #3149FA
+.cabecalho {
+    padding:  8% 0% 0% 8%;
 }
 
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    font-family: "Nunito", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+}
+
+
 .apresentacao {
-    padding: 8%;
+    padding: 5% 8%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly ;
+    justify-content: space-between ;
 }
 
 .apresentacao__conteudo {
@@ -35,6 +48,11 @@ body {
 
 }
 
+.destaque-do-titulo {
+    color: #3149FA
+}
+
+
 .apresentacao__conteudo__titulo {
    font-size: 36px; 
    font-family: 'Asimovian', 'sans-serif';
@@ -42,20 +60,20 @@ body {
 
 .apresentacao__conteudo__texto {
     font-size: 24px;
-    font-family: font-family: "Nunito", sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 .apresentacao__links {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 32px;
 }
 
 
 .apresentacao__links__subtitulo{
-    font-family: font-family: "Nunito", sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 400px;
     font-size: 24px;
 }
@@ -67,7 +85,7 @@ body {
     gap: 16px;
     border: 2PX solid #22D4FD;
     color:#F6F6F6;
-    font-family: font-family: "Nunito", sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 600;
     width: 378px;
     text-align: center;
@@ -88,7 +106,7 @@ body {
     color: #000000;
     background-color: #22D4FD;
     text-align: center;
-    font-family: font-family: "Nunito", sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 24px;
     font-weight: 400;
 }
