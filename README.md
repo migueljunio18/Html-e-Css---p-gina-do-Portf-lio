@@ -10,3 +10,4 @@ customicao via css e css
 utilizacao de mais de um html
 lincar mais e uma pagina e utilizar a mesma fonte css
 criacao de variaveis para otimizacao do codigo
+configuracao para pagina mobile 
